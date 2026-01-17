@@ -1,14 +1,13 @@
 package stepDefinition;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class AddingProduct {
 
     pages.AddingProduct productadd = new pages.AddingProduct();
 
-    @Given("the user navigates to the Books page")
+    @And("the user navigates to the Books page")
     public void user_navigates_to_books() {
         productadd.Navigate_to_BooksPage();
     }

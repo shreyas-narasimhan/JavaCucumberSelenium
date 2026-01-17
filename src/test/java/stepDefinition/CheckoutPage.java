@@ -1,14 +1,13 @@
 package stepDefinition;
 
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 
 public class CheckoutPage {
 
     pages.CheckoutPage checkoutpage = new pages.CheckoutPage();
 
-    @Given("the user navigates to the cart again to checkout")
+    @And("the user navigates to checkout")
     public void proceed_to_checkout(){
         checkoutpage.click_go_to_checkout();
     }
