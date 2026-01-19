@@ -1,4 +1,4 @@
-// This is will have a single flow to run it in same session
+# This is will have a single flow to run it in same session
 Feature: End-to-end scenario covering login, product selection, cart validation, and checkout
 
   Scenario: Validate that the user is able to Login
