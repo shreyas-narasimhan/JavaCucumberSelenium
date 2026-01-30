@@ -30,3 +30,7 @@ TestNG is used as the test runner and assertion framework,
 responsible for executing test cases, managing the test lifecycle,
 supporting annotations, grouping, parallel execution,
 and generating detailed test reports.
+
+## Instructions to Run the Project 
+Have a IDE setup done in the local machine.
+Then clone this project using this command - git clone 
