@@ -1,36 +1,59 @@
-# JavaCucumberSelenium
-## This is a sample automation testing framework using Java, Maven, Selenium, Cucumber, and TestNG.
+# Java Cucumber Selenium Automation Framework
 
-## Java
-Java is used as the programming language to write test scripts,
-step definitions, and core framework logic.
+This is a sample automation testing framework built using **Java, Maven, Selenium, Cucumber, and TestNG**.  
+It demonstrates an end-to-end UI automation approach following **BDD (Behavior Driven Development)** principles.
 
-## Maven
-Maven is used as the build and dependency management tool.
-It helps in maintaining consistency across environments
-by using the pom.xml file to define dependencies, plugins,
-and test execution configurations.
-Maven also manages project structure and automates test execution.
+---
 
-## Selenium
-Selenium is used for browser automation to interact with web elements,
-perform actions such as click, type, submit, and validate UI behavior
-across different browsers.
+## Tech Stack
 
-## Cucumber
-Cucumber is used for Behavior Driven Development (BDD),
-allowing test cases to be written in simple English using Gherkin syntax.
-In this project, the Gherkin feature file is written as a
-single end-to-end flow, starting from user login and continuing through
-product selection, cart validation, and checkout within the same session.
-This approach validates the complete user journey in one continuous scenario.
+### Java
+- Used as the primary programming language
+- Handles test scripts, step definitions, and core framework logic
 
-## TestNG
-TestNG is used as the test runner and assertion framework,
-responsible for executing test cases, managing the test lifecycle,
-supporting annotations, grouping, parallel execution,
-and generating detailed test reports.
+### Maven
+- Build and dependency management tool
+- Manages project structure, dependencies (`pom.xml`), plugins, and test execution
+- Ensures consistency across different environments
 
-## Instructions to Run the Project 
-Have a IDE setup done in the local machine.
-Then clone this project using this command - git clone 
+### Selenium
+- Used for browser automation
+- Performs actions such as clicking, typing, submitting forms, and UI validations
+- Supports cross-browser testing
+
+### Cucumber
+- Enables BDD using **Gherkin syntax**
+- Feature file is written as a **single end-to-end user flow**
+- Covers:
+  - User login
+  - Product selection
+  - Cart validation
+  - Checkout process
+- Validates the complete user journey within one continuous session
+
+### TestNG
+- Used as the test runner and assertion framework
+- Manages:
+  - Test execution lifecycle
+  - Annotations
+  - Parallel execution
+  - Test grouping
+  - Reporting
+
+---
+
+## Prerequisites
+- Java (JDK 8 or above)
+- Maven
+- Any IDE (IntelliJ IDEA / Eclipse)
+- Chrome browser (or configured browser)
+
+---
+
+## How to Run the Project
+1. Set up an IDE on your local machine
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/shreyas-narasimhan/JavaCucumberSelenium.git
+3. Run the project using the Runner class present in the runner file
+4. The report will be present in the "cucumber-html-report" inside the target folder
